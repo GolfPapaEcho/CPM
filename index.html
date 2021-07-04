@@ -1,0 +1,261 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0063)./index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Chemistry Physics and Maths Book Review</title>
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXX-Y', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/jpg" href="./Flask.png">
+<link rel="stylesheet" href="./W3_CSS_Template_files/w3.css">
+<link rel="stylesheet" href="./Lato.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+.whiteNavBar{
+	color: #FFFFFF}
+
+.fa-pi:before {
+    font-weight: 700;
+    content: '\1D70B';
+    }
+
+.fa-rho:before {
+    font-weight: 700;
+    content: '\03C1';
+    }	
+
+/* Create a Parallax Effect */
+.bgimg-1, bgimg-2, bgimg-3{
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url("./cmpBooksImages/saturnVoyager1.png");
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("./CornwallImages/BuoysBlackLarge.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Exhibitions)
+.bgimg-3 {
+  background-image: url("./ItalyImages/AronaManWorking.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+/*lightbox boundingbox*/
+.bounding-box {
+  /*background-image: url("./rect12.png");*/
+  /*background-image: url("./BristolImages/kingsdownPradeRS.jpg");*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: contain;*/
+    padding-top: 80.1; /* https://www.w3schools.com/howto/howto_css_aspect_ratio.asp */
+    position: relative;
+    overflow: hidden;
+}
+
+.abs {
+        width: 100%;
+    /* height: inherit; */
+    /* overflow: hidden; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+</style>
+</head><body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top whiteNavBar">
+	<div class="w3-bar" id="myNavbar">
+		<a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+			<i class="fa fa-bars"></i>
+		</a>
+		<a href="./index.html#home" class="w3-bar-item w3-button">HOME</a>
+		<a href="./index.html#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+		<a href="./index.html#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-pencil"></i> PORTFOLIO</a>
+		<a href="./chemistry.html#chemistry" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-flask"></i>CHEMISTRY</a>
+		<a href="./physics.html#physics" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-rho"></i> PHYSICS</a>
+		<a href="./maths.html#maths" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-pi"></i> MATHS</a>
+		<a href="./index.html#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+
+		</a>
+	</div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="./index.html#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="./index.html#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="./index.html#exhibitions" class="w3-bar-item w3-button" onclick="toggleFunction()">EXHIBITIONS</a>
+    <a href="./index.html#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><b>Chemistry Physics and Maths</b><span class="w3-hide-small"> Book Review</span></span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center">I am a chemist based in the UK who has a passion for learning science through reading science books.</p>
+  <p>Whilst I am primarily interested in chemistry, I  also study physics and maths at undergraduate level and hope to 
+  advance these areas in certain directions beyond the undergraduate curriculum. I hope you find my reviews helpful and entertaining.
+  </p>
+  <p>If you want to get in touch to discuss any aspect of my reviews or to recommend a book please feel free to email me at the 
+  address at the bottom of this page.</p>
+  <p>Happy reading,</p>
+  <p>GPE</p>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">THE REVIEWS</h3>
+  <p class="w3-center"><em>Click on the images to see the reviews</em></p>
+
+  <!-- Responsive Grid. Three columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center w3-content">
+    <div class="w3-col m4 w3-display-container w3-opacity-min">
+		<a href="./Chemistry.html">
+			<img src="./cmpBooksImages/NMRrobot.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cornwall">
+		<div class="w3-display-middle">
+				<span class="w3-xlarge w3-text-white w3-wide">CHEMISTRY</span>
+			</div>
+		</a>
+	</div>
+
+      <div class="w3-col m4 w3-display-container w3-opacity-min">
+		<a href="./Physics.html">
+			<img src="./cmpBooksImages/ATLASImage.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Italy">
+			<div class="w3-display-middle">
+				<span class="w3-xlarge w3-text-white w3-wide">PHYSICS</span>
+			</div>
+		</a>
+	</div>
+
+      <div class="w3-col m4 w3-display-container w3-opacity-min">
+        <div class='bounding-box'>
+		       <a href="./Maths.html">
+				      <img src="./cmpBooksImages/PonsAsinorum.png" style="height:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bristol">
+			          <div class="w3-display-middle">
+				          <span class="w3-xlarge w3-text-black w3-wide">MATHS</span>
+			          </div>
+		       </a>
+          </div>
+        </div>
+      </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display=&#39;none&#39;">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+	<div class="w3-row w3-padding-32 w3-section">
+		<div class="w3-col m4 w3-container">
+			<img src="./Flask.png" class="w3-image" style="width:100%">
+		</div>
+		<div class="w3-col m8 w3-panel">
+			<div class="w3-display-center">
+				<span class="w3-xxlarge w3-wide w3-margin-left">CONTACT</span><br>
+			</div>
+			<div class="w3-large w3-margin-bottom w3-cell-middle">
+				<br>
+				<i class="fa fa-envelope fa-fw w3-xlarge w3-margin-left"></i> Email: gpe0p207@outlook.com<br>
+				<br>
+				<p class="w3-margin-left">Please do get in touch if you’d like to discuss any aspect of my work.</p>
+			</div>
+		</div>
+   </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="./index.html#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+<p><h3>Image Credits</h3></p>
+<p>Saturn Look Back - NASA/JPL</p>
+<p>NMR Robot - Science.eus</p>
+<p>ATLAS Dectector - CERN</p>
+<p>Pons Asinorum - Wikipedia</p>
+<!--  <p>Powered by <a href="https://www.MinimumWageWebsites.com/" title="Minimum Wage Websites" target="_blank" class="w3-hover-text-green">Minimum Wage Websites</a></p> -->
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+
+</body></html>
