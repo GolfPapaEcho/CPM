@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Catherine Hale Fine Art Portfolio Italy</title>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Maths Books Reviews</title>
 
 <!-- Google Analytics -->
 <script>
@@ -15,7 +15,7 @@ ga('send', 'pageview');
 <!-- End Google Analytics -->
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/jpg" href="./Logo.jpg">
+<link rel="shortcut icon" type="image/jpg" href="./Flask.png">
 <link rel="stylesheet" href="./W3_CSS_Template_files/w3.css">
 <link rel="stylesheet" href="./Lato.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -36,7 +36,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("./ItalyImages/LavenoFerryCropped.jpg");
+  background-image: url("./cmpBooksImages/saturnVoyager1.png");
   min-height: 400px;
 }
 
@@ -63,6 +63,16 @@ body, html {
     right: 0;
 }
 
+.fa-pi:before {
+    font-weight: 700;
+    content: '\1D70B';
+    }
+
+.fa-rho:before {
+    font-weight: 700;
+    content: '\03C1';
+    }	
+
 
 </style>
 <body>
@@ -74,18 +84,20 @@ body, html {
       <i class="fa fa-bars"></i>
     </a>
     <a href="./index.html#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="./index.html#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="./index.html#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-paint-brush"></i> PORTFOLIO</a>
-    <a href="./index.html#exhibitions" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i>EXHIBITIONS</a> 
-    <a href="./index.html#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    </a>
+		<a href="./index.html#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+		<a href="./index.html#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-pencil"></i> PORTFOLIO</a>
+		<a href="./chemistry.html#chemistry" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-flask"></i>CHEMISTRY</a>
+		<a href="./physics.html#physics" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-rho"></i> PHYSICS</a>
+		<a href="./maths.html#maths" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-pi"></i> MATHS</a>
+		<a href="./index.html#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+  
+  </a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="./index.html#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
     <a href="./index.html#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-    <a href="./index.html#exhibitions" class="w3-bar-item w3-button" onclick="toggleFunction()">EXHIBITIONS</a>
     <a href="./index.html#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
     
   </div>
@@ -94,52 +106,113 @@ body, html {
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle w3-center" style="white-space:nowrap;">
-      <span class="w3-xxlarge w3-text-white w3-wide">ITALY</span>
-      <p class="w3-center w3-text-white"><em>Click on the images below to make them bigger</em></p>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><b>Maths</b><span class="w3-hide-small"> Books Reviews</span></span>
+    <p class="w3-center w3-text-white"><em>Click on the images below to view the reviews</em></p> </div>
+</div>
+
+<!-- Container (Reviews Section) -->
+   
+<div class="w3-row-padding w3-center w3-section w3-content">
+  <div class="w3-col m3">
+  <div class='bounding-box'>
+    <img src="./cmpBooksImages/myBookCase2.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity abs" alt="Under Construction">
   </div>
 </div>
 
-<!-- Container (Portfolio Section) -->
-   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-
-  <div class="w3-row-padding w3-center w3-content" style="padding-top: 50px">
-    <div class="w3-col m3">
-      <img src="./ItalyImages/AngeraSHADOWS.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Angera Shadows">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="./ItalyImages/AronaManWorking.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Arona Man Working">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="./ItalyImages/BackStreetsANGERA.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Back Streets Angera">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="./ItalyImages/CerroBAR.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cerro Bar">
-    </div>
+  <div class="w3-col m3">
+  <div class='bounding-box'>
+    <img src="./cmpBooksImages/myBookCase2.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity abs" alt="Under Construction">
+  </div>
   </div>
 
-  <div class="w3-row-padding w3-center w3-section w3-content">
-    <div class="w3-col m3">
-		<div class='bounding-box'>
-			<img src="./ItalyImages/CinqueterreBoats.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity abs" alt="Cinqueterre Boats">
-		</div>
-	</div>
+  <div class="w3-col m3">
+    <div class='bounding-box'>
+    <img src="./cmpBooksImages/myBookCase2.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity abs" alt="Under Construction">
+  </div>
+</div>
 
-    <div class="w3-col m3">
-      <img src="./ItalyImages/LavenoFerryCropped.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Laveno Ferry">
-    </div>
+  <div class="w3-col m3">
+  <div class='bounding-box'>
+    <img src="./cmpBooksImages/myBookCase2.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity abs2" alt="Under Construction">
+  </div>
+  </div>
+</div>
+<div class="w3-row-padding w3-center w3-section w3-content">
+  <div class="w3-col m3">
+  <div class='bounding-box'>
+    <img src="./cmpBooksImages/myBookCase2.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity abs" alt="Under Construction">
+  </div>
+</div>
 
-    <div class="w3-col m3">
-      <div class='bounding-box'>
-			<img src="./ItalyImages/milanTowerBlock2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity abs" alt="Milan Tower Block 2">
-		</div>
-	</div>
-	
-    <div class="w3-col m3">
-      <img src="./ItalyImages/MountainHutCuvignone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Mountain Hut Cuvignone">
-    </div>
+  <div class="w3-col m3">
+  <div class='bounding-box'>
+    <img src="./cmpBooksImages/myBookCase2.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity abs" alt="Under Construction">
+  </div>
+  </div>
+
+  <div class="w3-col m3">
+    <div class='bounding-box'>
+    <img src="./cmpBooksImages/myBookCase2.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity abs" alt="Under Construction">
+  </div>
+</div>
+
+  <div class="w3-col m3">
+  <div class='bounding-box'>
+    <img src="./cmpBooksImages/myBookCase2.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity abs2" alt="Under Construction">
+  </div>
+  </div>
+</div>
+<div class="w3-row-padding w3-center w3-section w3-content">
+  <div class="w3-col m3">
+  <div class='bounding-box'>
+    <img src="./cmpBooksImages/myBookCase2.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity abs" alt="Under Construction">
+  </div>
+</div>
+
+  <div class="w3-col m3">
+  <div class='bounding-box'>
+    <img src="./cmpBooksImages/myBookCase2.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity abs" alt="Under Construction">
+  </div>
+  </div>
+
+  <div class="w3-col m3">
+    <div class='bounding-box'>
+    <img src="./cmpBooksImages/myBookCase2.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity abs" alt="Under Construction">
+  </div>
+</div>
+
+  <div class="w3-col m3">
+  <div class='bounding-box'>
+    <img src="./cmpBooksImages/myBookCase2.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity abs2" alt="Under Construction">
+  </div>
+  </div>
+</div>
+<div class="w3-row-padding w3-center w3-section w3-content">
+  <div class="w3-col m3">
+  <div class='bounding-box'>
+    <img src="./cmpBooksImages/myBookCase2.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity abs" alt="Under Construction">
+  </div>
+</div>
+
+  <div class="w3-col m3">
+  <div class='bounding-box'>
+    <img src="./cmpBooksImages/myBookCase2.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity abs" alt="Under Construction">
+  </div>
+  </div>
+
+  <div class="w3-col m3">
+    <div class='bounding-box'>
+    <img src="./cmpBooksImages/myBookCase2.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity abs" alt="Under Construction">
+  </div>
+</div>
+
+  <div class="w3-col m3">
+  <div class='bounding-box'>
+    <img src="./cmpBooksImages/myBookCase2.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity abs2" alt="Under Construction">
+  </div>
+  </div>
+</div>
+
   </div>
 </div>
 
@@ -154,11 +227,7 @@ body, html {
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-  <a href="./Italy.html#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-    <a href="https://www.instagram.com/Catherine.hale.art/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-    <a href="https://www.linkedin.com/in/catherine-hale-b155068"m target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-  </div>
+  <a href="./Maths.html#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
 <!--  <p>Powered by <a href="https://www.MinimumWageWebsites.com/" title="Minimum Wage Websites" target="_blank" class="w3-hover-text-green">Minimum Wage Websites</a></p> -->
 </footer>
 
