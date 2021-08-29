@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>ReviewEinsteinsTheory</title>
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXX-Y', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/jpg" href="./Flask.png">
+<link rel="stylesheet" href="./W3_CSS_Template_files/w3.css">
+<link rel="stylesheet" href="./Lato.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+.whiteNavBar{
+	color: #FFFFFF}
+
+/* Create a Parallax Effect */
+.bgimg-1{
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./cmpBooksImages/saturnVoyager1.png");
+  min-height: 400px;
+}
+
+/*lightbox boundingbox*/
+.bounding-box {
+  /*background-image: url("./rect12.png");*/
+  /*background-image: url("./cmpBooksImages/myBookCase2.JPG");*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: contain;*/
+    padding-top: 100%; /* https://www.w3schools.com/howto/howto_css_aspect_ratio.asp */
+    position: relative;
+    overflow: hidden;
+}
+
+.abs {
+        width: 100%;
+    /* height: inherit; */
+    /* overflow: hidden; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.abs2 {
+        height: 100%;
+    /* height: inherit; */
+    /* overflow: hidden; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.fa-pi:before {
+    font-weight: 700;
+    content: '\1D70B';
+    }
+
+.fa-rho:before {
+    font-weight: 700;
+    content: '\03C1';
+    }	
+
+
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top whiteNavBar">
+	<div class="w3-bar" id="myNavbar">
+		<a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+			<i class="fa fa-bars"></i>
+		</a>
+		<a href="./index.html#home" class="w3-bar-item w3-button">HOME</a>
+		<a href="./index.html#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+		<a href="./index.html#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-pencil"></i> PORTFOLIO</a>
+		<a href="./Chemistry.html#chemistry" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-flask"></i>CHEMISTRY</a>
+		<a href="./Physics.html#physics" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-rho"></i> PHYSICS</a>
+		<a href="./Maths.html#maths" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-pi"></i> MATHS</a>
+		<a href="./index.html#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+
+		</a>
+	</div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="./index.html#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="./index.html#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="./index.html#exhibitions" class="w3-bar-item w3-button" onclick="toggleFunction()">EXHIBITIONS</a>
+    <a href="./index.html#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle w3-center" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><b>Einstein’s Theory</b><span class="w3-hide-small"> &#216yvind Gr&#248n and Arne N&#230ss</span></span>
+      <p class="w3-center w3-text-white"><em>A Review by GPE</em></p>
+  </div>
+</div>
+
+<!-- Container (Reviews Section) -->
+
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">REVIEW</h3>
+  <p>The subtitle to this book is “A Rigorous Introduction for the Mathematically Untrained” thus this book is unique in that it does not assume you have mathematics above high school level, and all the maths to understand General Relativity (GR) is developed through the book. Indeed the book came about because the philosopher, Arne Nӕss, attended physicist Øyvind Grøn’s postgraduate class in GR and needed more mathematical background.</p>
+  <p>Thus this book promises a lot – and it delivers! The first 4 chapters cover vectors and differential and integral calculus to about A-Level standard, and the explanations are very clear. Then comes Chapter 5 – The Metric Tensor, in which tensors are introduced as well as the Lorentz transformations along with an explanation of special relativity and light cones. The line element is also introduced. This is the longest chapter in the book and I reckon that if you make it through Chapter 5 you will make it through the book.</p>
+  <p>As I progressed through the book I found myself falling more and more in love with physics. Chapter 6 explains Christoffel symbols, which are essential to be able to differentiate tensors as explained in Chapter 7. The exposition of geodesics and parallel transport in Chapter 8 is admirable for its clarity.</p>
+  <p>Curvature and the Riemann curvature tensor are introduced in Chapter 9, and Chapter 10 contains some basic physics and introduces the energy-momentum tensor, this perfectly sets up Chapter 11 which introduces the Ricci curvature tensor and then the Einstein field equations. Thus after a great deal of effort on the part of the reader all the maths is in place and you can understand Einstein!</p>
+  <p>The remaining chapters elaborate on the theory and discuss applications, including the advancement of Mercury’s perihelion, the Schwarzschild solution and metric, leading to a discussion of black holes. The final chapter is about cosmology, the Friedmann models, and inflation – a satisfying finish to the book</p>
+  <p>The English is excellent, especially considering it was written by non-native speakers. There are one or two typos and printing errors, but the book is brilliantly cross-referenced and in spite of the fact that it has no exercises, it succeeds magnificently in explaining one of the pillars of 20<sup>th</sup> Century science.</p>
+  <p>Strongly recommended!</p>
+</div>   
+ 
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display=&#39;none&#39;">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="./ReviewEinsteinsTheory.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p><h3>Image Credits</h3></p>
+  <p>Einstein’s Theory - Springer</p>
+<!--  <p>Powered by <a href="https://www.MinimumWageWebsites.com/" title="Minimum Wage Websites" target="_blank" class="w3-hover-text-green">Minimum Wage Websites</a></p> -->
+</footer>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
