@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>ReviewParticlePhysicsAVSI</title>
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXX-Y', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/jpg" href="./Flask.png">
+<link rel="stylesheet" href="./W3_CSS_Template_files/w3.css">
+<link rel="stylesheet" href="./Lato.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+.whiteNavBar{
+	color: #FFFFFF}
+
+/* Create a Parallax Effect */
+.bgimg-1{
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./cmpBooksImages/saturnVoyager1.png");
+  min-height: 400px;
+}
+
+/*lightbox boundingbox*/
+.bounding-box {
+  /*background-image: url("./rect12.png");*/
+  /*background-image: url("./cmpBooksImages/myBookCase2.JPG");*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: contain;*/
+    padding-top: 100%; /* https://www.w3schools.com/howto/howto_css_aspect_ratio.asp */
+    position: relative;
+    overflow: hidden;
+}
+
+.abs {
+        width: 100%;
+    /* height: inherit; */
+    /* overflow: hidden; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.abs2 {
+        height: 100%;
+    /* height: inherit; */
+    /* overflow: hidden; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.fa-pi:before {
+    font-weight: 700;
+    content: '\1D70B';
+    }
+
+.fa-rho:before {
+    font-weight: 700;
+    content: '\03C1';
+    }	
+
+
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top whiteNavBar">
+	<div class="w3-bar" id="myNavbar">
+		<a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+			<i class="fa fa-bars"></i>
+		</a>
+		<a href="./index.html#home" class="w3-bar-item w3-button">HOME</a>
+		<a href="./index.html#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+		<a href="./index.html#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-pencil"></i> PORTFOLIO</a>
+		<a href="./Chemistry.html#chemistry" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-flask"></i>CHEMISTRY</a>
+		<a href="./Physics.html#physics" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-rho"></i> PHYSICS</a>
+		<a href="./Maths.html#maths" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-pi"></i> MATHS</a>
+		<a href="./index.html#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+
+		</a>
+	</div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="./index.html#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="./index.html#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="./index.html#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle w3-center" style="white-space:wrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><b>Paticle Physics:A Very Short Introduction </b><span>Frank Close</span></span>
+      <p class="w3-center w3-text-white"><em>A Review by GPE</em></p>
+  </div>
+</div>
+
+<!-- Container (Reviews Section) -->
+
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">REVIEW</h3>
+  <p>This book is one of Oxford University Press’s “A Very Short Introduction” series which are available for a very broad range of topics. This series is very popular and I have read about a dozen titles in this series and I have enjoyed almost all of them.</p>
+  <p>This book is aimed squarely at the curious lay reader and is pretty much devoid of equations. However it does a good job of providing a descriptive phenomenology of particle physics. This book is definitely in the light reading category for any scientist.</p>
+  <p>Chapter 1 introduces the atomic theory and gives a light overview of atomic structure down to the level of quarks, and also describes the four forces with a nice graphic. The second chapter gives the scale of things throughout the universe and discusses the universe through time and temperature, which sets the scene for what is to come.</p>
+  <p>Chapter 3 explains nicely how wavelength is inversely related to energy and what this means for seeing things of different sizes. It introduces J.J. Thomson’s discovery of the electron and then the structure of atoms. The next chapter discusses quarks and the neutrino, as well as discussing beta decay, while Chapter 5 introduces accelerators, both cosmic and man-made and contains much historical interest. It continues with colliders, B-meson, and neutrino factories. Chapter 6 is about detectors for particles. It discusses photographic film, cloud chambers, bubble chambers, and spark chambers as well as introducing the geometry of detectors at collision sites, and the engineering efforts to produce such things are touched upon.</p>
+  <p>Chapter 7 is about the four fundamental forces and their carriers: gluons for the strong force, and W and Z bosons for the weak nuclear force, and the photon for electromagnetic force. The Heisenberg uncertainty principle, quantum chromodynamics, Maxwell’s electromagnetism and unification all get a look in, which made this an interesting chapter. The next chapter discusses strange, charm, top, and bottom quarks, as well as an interesting discussion of the mystery of where all the antimatter went.</p>
+  <p>Chapter 9 explains where matter comes from (i.e. how it is cooked in stars) and talks about the early history of the universe. It also brings up the antimatter question again in time for a final discussion in the Chapter 10, which is about questions for the 21st century. As the book was published in 2004 and so it is antiquated in its discussion of the Higgs’ boson. Finally the author discusses antimatter and CP symmetry breaking but makes no attempt to explain what CP symmetry is, which is a shame.</p>
+  <p>This book helped give me an overview of the field at a high level, luckily it has a recommendation for a physics undergraduate level text in the further reading. Overall I found this book enjoyable bedtime reading.</p>
+  <p></p>
+</div>   
+ 
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display=&#39;none&#39;">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="./ReviewParticlePhysicsAVSI.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p><h3>Image Credits</h3></p>
+  <p>Particle Physics: A Very Short Introduction - Oxford University Press</p>
+<!--  <p>Powered by <a href="https://www.MinimumWageWebsites.com/" title="Minimum Wage Websites" target="_blank" class="w3-hover-text-green">Minimum Wage Websites</a></p> -->
+</footer>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
