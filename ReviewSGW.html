@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>ReviewSGW</title>
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXX-Y', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/jpg" href="./Flask.png">
+<link rel="stylesheet" href="./W3_CSS_Template_files/w3.css">
+<link rel="stylesheet" href="./Lato.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+.whiteNavBar{
+	color: #FFFFFF}
+
+/* Create a Parallax Effect */
+.bgimg-1{
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./cmpBooksImages/saturnVoyager1.png");
+  min-height: 400px;
+}
+
+/*lightbox boundingbox*/
+.bounding-box {
+  /*background-image: url("./rect12.png");*/
+  /*background-image: url("./cmpBooksImages/myBookCase2.JPG");*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: contain;*/
+    padding-top: 100%; /* https://www.w3schools.com/howto/howto_css_aspect_ratio.asp */
+    position: relative;
+    overflow: hidden;
+}
+
+.abs {
+        width: 100%;
+    /* height: inherit; */
+    /* overflow: hidden; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.abs2 {
+        height: 100%;
+    /* height: inherit; */
+    /* overflow: hidden; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.fa-pi:before {
+    font-weight: 700;
+    content: '\1D70B';
+    }
+
+.fa-rho:before {
+    font-weight: 700;
+    content: '\03C1';
+    }	
+
+
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top whiteNavBar">
+	<div class="w3-bar" id="myNavbar">
+		<a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+			<i class="fa fa-bars"></i>
+		</a>
+		<a href="./index.html#home" class="w3-bar-item w3-button">HOME</a>
+		<a href="./index.html#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+		<a href="./index.html#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-pencil"></i> PORTFOLIO</a>
+		<a href="./Chemistry.html#chemistry" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-flask"></i>CHEMISTRY</a>
+		<a href="./Physics.html#physics" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-rho"></i> PHYSICS</a>
+		<a href="./Maths.html#maths" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-pi"></i> MATHS</a>
+		<a href="./index.html#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+
+		</a>
+	</div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="./index.html#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="./index.html#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="./index.html#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle w3-center" style="white-space:wrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><b>A Student's Guide to Waves</b><span> Laura Kinnaman Daniel Fleisch</span></span>
+      <p class="w3-center w3-text-white"><em>A Review by GPE</em></p>
+  </div>
+</div>
+
+<!-- Container (Reviews Section) -->
+
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">REVIEW</h3>
+  <p>Here chemical physicist Laura Kinnaman joined Daniel Fleisch to create this Student’s Guide to the essential topic of Waves. The clarity of this series of books is excellent, which is why I like them. Fleisch writes to be understood and so does Kinnaman.The book is set out in 6 chapters, the first 3 on general principles which are then expounded in the last 3 on mechanical, electromagnetic and quantum waves. </p>
+  <p>Chapter 1 is on definitions and basics such as, frequency, wavelength, wave number, wavefunctions, types of speed, and phasors. This is an easy chapter which sets the scene for the rest of the book.</p>
+  <p>The next chapter explains the mathematics of the wave equation starting with partial derivatives and then explaining in a very lucid way how they work in the wave equation. This is followed by an engaging description of the properties of the wave equation as a linear, homogeneous, second order, and hyperbolic PDE, and afterwards some discussion of related PDEs such as the Schrödinger  equation.</p>
+  <p>Chapter 3 carefully explains the solutions to the wave equation and the use and importance of boundary conditions in it’s solutions, before going on to to explain the basics of Fourier Theory, and finishing with a section on wave packets and dispersion, where the group velocity is covered. This is quite a lengthy chapter but it is enjoyable. I got stuck on the physics of question 3.5 and emailed Dan Fleisch about it. He replied with a long and detailed email that answered my question very clearly, and the email arrived on my birthday – what a legend Fleisch is!</p>
+  <p>Chapters 4 covers mechanical waves. Waves on a string and pressure waves are covered initially, as well as impedance, refection, and transmission. I found the material on impedance and reflection most helpful for my understanding. Chapter 5 gives a flying tour of Maxwell’s Equations, and the derivation of the electromagnetic wave equation. Energy and power of electromagnetic waves are explored, and the Poynting vector is defined. These 2 chapters enabled me to understand an exciting current research paper on time reflection in microwaves.</p>
+  <p>The last chapter covers the quantum wave equation. It begins with an easy discussion of wave and particle characteristics, followed by duality. It then starts to ramp up with an introduction to the Schrödinger Equation and the Born interpretation, with normalization and quantum wave packets coming next. Kinnaman gives a clear explanation of how Heisenberg’s uncertainty relation originates from Fourier Theory of ordinary waves. The final problem is the infinite potential well (particle in a box), which nicely rounds off the book - a great application.</p>
+  <p>The preface says that students often struggle with the mathematical aspects of waves and that the purpose of the book is to help illuminate these (mathematical) issues. I found the book enlightening, both in the mathematics and in the physics. It is a great read.</p>
+</div>   
+ 
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display=&#39;none&#39;">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="./ReviewSymmetryAVSI.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p><h3>Image Credits</h3></p>
+  <p>A Student's Guide to Waves - Cambridge University Press</p>
+<!--  <p>Powered by <a href="https://www.MinimumWageWebsites.com/" title="Minimum Wage Websites" target="_blank" class="w3-hover-text-green">Minimum Wage Websites</a></p> -->
+</footer>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
