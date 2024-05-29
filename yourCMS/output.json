@@ -1,0 +1,109 @@
+{
+    "TYPE": "document",
+    "VALUE": [
+        {
+            "TYPE": "body",
+            "VALUE": [
+                {
+                    "TYPE": "paragraph",
+                    "VALUE": [
+                        {
+                            "TYPE": "text",
+                            "VALUE": "Review of \"A Student's Guide to Vectors and Tensors\" by Daniel Fleisch"
+                        }
+                    ]
+                },
+                {
+                    "TYPE": "paragraph",
+                    "VALUE": [
+                        {
+                            "TYPE": "text",
+                            "VALUE": "By GPE."
+                        }
+                    ]
+                },
+                {
+                    "TYPE": "paragraph",
+                    "VALUE": [
+                        {
+                            "TYPE": "text",
+                            "VALUE": "Date 25/03/2021"
+                        }
+                    ]
+                },
+                {
+                    "TYPE": "paragraph",
+                    "VALUE": [
+                        {
+                            "TYPE": "text",
+                            "VALUE": "This book is one of Cambridge University Press's generally excellent \"A Student's Guide to\" series of primers on topics in Physics. The idea behind the series is that topics are explained with crystal clarity and Fleisch is a master of transparent exposition. So it was with great anticipation that I started this book."
+                        }
+                    ]
+                },
+                {
+                    "TYPE": "paragraph",
+                    "VALUE": [
+                        {
+                            "TYPE": "text",
+                            "VALUE": "The book is set out in 6 chapters, the first 3 on vectors and the last 3 on tensors. There are sets of 10-12 problems at the end of each chapter for you to check your understanding and to practice. Furthermore there is a website to accompany the book with hints and full solutions to all the problems in the book as well as podcasts to accompany each chapter, and supplementary material covering matrix algebra and addressing sources of confusion in the electromagnetic field strength tensor. This is a really helpful feature and can be found HERE."
+                        }
+                    ]
+                },
+                {
+                    "TYPE": "paragraph",
+                    "VALUE": [
+                        {
+                            "TYPE": "text",
+                            "VALUE": "The book begins with basic vector definitions and then moves into basic vector operations If you have used vectors before you might just want to skim chapter 1 as this material is quite dry if you know it already [in of itself, not the presentation (Leonard Susskind, on this topic quipped that some things like certain pieces of music or fine wines are always good no matter how many times you experience them)], and then rattle through the problems at the end of the chapter."
+                        }
+                    ]
+                },
+                {
+                    "TYPE": "paragraph",
+                    "VALUE": [
+                        {
+                            "TYPE": "text",
+                            "VALUE": "Chapter 2 starts with vector products before the important introduction of partial differentiation, derivatives as vectors, and then the  vector operators grad, div, curl, and Laplacian. The writing is crisp and the explanations easy to follow."
+                        }
+                    ]
+                },
+                {
+                    "TYPE": "paragraph",
+                    "VALUE": [
+                        {
+                            "TYPE": "text",
+                            "VALUE": "Chapters 3 and 6 explore applications, with chapter 3 covering the classic mass on an inclined plane problem, curvilinear motion of cars on a track and hammer throwing (the front cover shows the author's son about to throw a hammer). These are followed by sections on electric and magnetic fields."
+                        }
+                    ]
+                },
+                {
+                    "TYPE": "paragraph",
+                    "VALUE": [
+                        {
+                            "TYPE": "text",
+                            "VALUE": "Chapter 4 begins a gentle introduction to the tensor concept introducing contravariant and covariant components and how to find them as well as the index notation. Chapter 5 starts with advanced definitions of scalars, vectors, and tensors and moves on to consider tensor algebra including outer and inner products and tensor contraction. Next comes the metric tensor and Christoffel symbols and covariant differentiation. This chapter was the highlight of the book for me and I finished it feeling that I had just stepped into a larger world!"
+                        }
+                    ]
+                },
+                {
+                    "TYPE": "paragraph",
+                    "VALUE": [
+                        {
+                            "TYPE": "text",
+                            "VALUE": "The final chapter puts meat on the flesh of chapter 5 with the inertia tensor from classical mechanics, the electromagnetic field strength tensor and finishing with the Riemann curvature tensor, and Ricci tensor and scalar from General Relativity which gives you practice with Christoffel symbols and manipulating tensors in simple situations for yourself."
+                        }
+                    ]
+                },
+                {
+                    "TYPE": "paragraph",
+                    "VALUE": [
+                        {
+                            "TYPE": "text",
+                            "VALUE": "Apparently early printings of the book had a number of printing errors, but these are all accounted for on the books' website and my copy was just fine. So if you buy a copy in 2021 or later (and I strongly recommend you do) you should be ok. In short this book is a second triumph for Fleisch and will be a joy and triumph for you if you choose to read and study it."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
